@@ -1,1 +1,17 @@
 C:\Users\Lenovo\Desktop\GitFirstRepo
+
+Git commands
+This is important for version control systems, as each Git commit uses this information:
+git config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com"
+Change the user name and e-mail address to your own. You will probably also want to use this when registering to GitHub later on.
+Use global to set the username and e-mail for every repository on your computer.
+
+git init : to initilize the repo
+git add fileName: to add a file to staging area
+git commit -m commitMessage : to commit all the file from staging area to repo
+
+below 2 commands to sync local repo to remote repo
+git remote add origin https://github.com/AnjaliSrivastav14/FirstRepoTest  : to add the remote url of the repo you created in github
+git push -u origin master : to push local repo to github  (it will ask you for credentials). it will push master branch to repository. If you have different main branch , replace "master" with the correct name.
+
