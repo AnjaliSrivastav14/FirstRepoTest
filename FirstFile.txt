@@ -15,5 +15,5 @@ below 2 commands to sync local repo to remote repo
 git remote add origin https://github.com/AnjaliSrivastav14/FirstRepoTest  : to add the remote url of the repo you created in github
 git push -u origin master : to push local repo to github  (it will ask you for credentials). it will push master branch to repository. If you have different main branch , replace "master" with the correct name.
 Updated.
-updates
+updates.
 
