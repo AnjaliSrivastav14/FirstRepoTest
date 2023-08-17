@@ -27,3 +27,6 @@ git push --set-upstream origin branchName
 
 
 
+git fetch vs git pull:
+-->git pull copies changes from a remote repository directly into your working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo
+
